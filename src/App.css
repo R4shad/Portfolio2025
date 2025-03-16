@@ -4,3 +4,19 @@
 
   align-items: center;
 }
+.icon {
+  font-size: 24px;
+  fill: white;
+}
+
+.github:hover {
+  fill: #58a6ff;
+}
+
+.linkedin:hover {
+  fill: #0077b5;
+}
+
+.instagram:hover {
+  fill: #e4405f;
+}
