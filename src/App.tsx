@@ -1,9 +1,10 @@
 import './App.css'
+import Main from './Componets/Main/Main'
 
 function App() {
   return (
     <div className="app-container">
-      <h1>Amir Barra - Systems Engineer</h1>
+      <Main />
     </div>
   )
 }
