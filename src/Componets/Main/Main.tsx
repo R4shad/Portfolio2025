@@ -1,19 +1,20 @@
 import ShinyText from './ShinyText'
 import './Main.css'
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa'
+import { Readme } from './Readme'
 
 const Main = () => {
   return (
     <div className="main-container">
       <img className="img-perfil" src="/perfil.JPG" alt="Profile" />
       <ShinyText
-        text="Amir Barra - Systems Engineer"
+        text="AMIR BARRA - SYSTEMS ENGINEER"
         disabled={false}
         speed={2}
         className="h1"
       />
       <ShinyText
-        text="Web  Developer and IT"
+        text="Software Developer and IT"
         disabled={false}
         speed={2}
         className="h2"
@@ -41,6 +42,7 @@ const Main = () => {
           <FaInstagram className="icon instagram" />
         </a>
       </div>
+      <Readme />
     </div>
   )
 }
