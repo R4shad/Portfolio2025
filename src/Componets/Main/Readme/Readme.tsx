@@ -1,4 +1,4 @@
-import DecryptedText from './DecryptedText'
+import DecryptedText from './../DecryptedText'
 import './Readme.css'
 export const Readme = () => {
   return (

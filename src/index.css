@@ -10,6 +10,7 @@ body {
   margin: 0;
 
   font-family: 'Inter', sans-serif;
+  font-size: 18px;
 }
 * {
   color: white;
@@ -23,12 +24,11 @@ h3 {
 
 .code,
 pre {
+  margin: 0;
   font-family: 'Fira Code', monospace;
-  line-height: 1.8;
-  font-size: 16px;
-  text-align: justify;
+  line-height: 1.6;
 }
 
-.api-endpoints {
+.url {
   font-family: 'JetBrains Mono', monospace;
 }

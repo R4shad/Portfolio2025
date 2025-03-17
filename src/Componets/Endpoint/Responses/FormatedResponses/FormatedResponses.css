@@ -1,0 +1,168 @@
+.umss {
+  height: 250px;
+  width: auto;
+  background-color: white;
+  border-radius: 4px;
+}
+.response-formated-container {
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #333;
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: space-between;
+}
+.response-formated-container2 {
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #333;
+  background-color: #1e1e1e;
+  display: flex;
+  flex-direction: column;
+}
+
+.certification-category {
+  margin-bottom: 16px;
+}
+
+.certification-category h3 {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 4px;
+}
+
+.certification-item {
+  margin: 8px 0;
+  padding: 8px;
+  border-left: 4px solid #007bff;
+  border-radius: 4px;
+  background-color: #282c34;
+  color: #ffffff;
+  list-style: none;
+}
+
+.cert-name {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.cert-detail {
+  font-size: 0.9rem;
+  color: #b0b0b0;
+}
+.work-experience-category {
+  margin-bottom: 16px;
+}
+
+.work-experience-category h3 {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 4px;
+}
+
+.work-experience-item {
+  margin: 8px 0;
+  padding: 8px;
+  border-left: 4px solid #007bff;
+  border-radius: 4px;
+  background-color: #282c34;
+  color: #ffffff;
+  list-style: none;
+}
+
+.work-detail {
+  font-size: 0.9rem;
+  color: #b0b0b0;
+}
+
+.work-responsibilities {
+  padding-left: 20px;
+}
+
+.work-task {
+  font-size: 0.9rem;
+  color: #ffffff;
+  list-style: disc;
+}
+.skill-category {
+  margin-bottom: 16px;
+}
+
+.skill-category h3 {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 4px;
+}
+
+.skill-item {
+  margin: 8px 0;
+  padding: 8px;
+  border-left: 4px solid #007bff;
+  border-radius: 4px;
+  background-color: #282c34;
+  color: #ffffff;
+  list-style: none;
+}
+
+.skill-name {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.skill-level {
+  font-size: 0.9rem;
+  color: #b0b0b0;
+}
+
+.project-category {
+  margin-bottom: 16px;
+}
+
+.project-category-title {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 4px;
+}
+
+.project-item {
+  margin: 8px 0;
+  padding: 8px;
+  border-left: 4px solid #007bff;
+  border-radius: 4px;
+  background-color: #282c34;
+  color: #ffffff;
+  list-style: none;
+  width: 100%;
+}
+
+.project-name {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.project-description {
+  font-size: 0.9rem;
+  color: #b0b0b0;
+}
+
+.project-tech {
+  font-size: 0.9rem;
+  color: #b0b0b0;
+  margin-top: 4px;
+}
+
+.project-link {
+  margin-top: 5px;
+}
+
+.project-link a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-link a:hover {
+  text-decoration: underline;
+}
