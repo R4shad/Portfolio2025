@@ -1,7 +1,7 @@
-import ShinyText from './ShinyText'
+import ShinyText from './ShinyText/ShinyText'
 import './Main.css'
 import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa'
-import { Readme } from './Readme'
+import { Readme } from './Readme/Readme'
 
 const Main = () => {
   return (
