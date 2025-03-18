@@ -1,0 +1,36 @@
+footer {
+  margin-top: 36px;
+  background-color: rgba(22, 27, 34, 1);
+  padding: 10px 0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-name {
+  opacity: 0.8;
+}
+
+.contact-link {
+  color: #1e90ff;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}
+
+.contact-icon {
+  font-size: 18px;
+  opacity: 0.8;
+}
+p {
+  margin: 0;
+}

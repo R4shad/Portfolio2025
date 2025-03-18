@@ -10,6 +10,7 @@ import { workExperience } from './data.d'
 import { skills } from './data.d'
 import { projects } from './data.d'
 import { PostEndpoint } from './Componets/PostEndpoint/PostEndpoint'
+import { Footer } from './Componets/Footer/Footer'
 
 function App() {
   const [showNavbar, setShowNavbar] = useState(false)
@@ -34,6 +35,7 @@ function App() {
       <Endpoint data={skills} />
       <Endpoint data={projects} />
       <PostEndpoint />
+      <Footer />
     </div>
   )
 }
