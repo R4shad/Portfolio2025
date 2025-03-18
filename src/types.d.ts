@@ -46,6 +46,7 @@ export interface ApiWorkExperience {
     company: string
     location: string
     period: string
+    summary: string
     responsibilities: string[]
   }[]
 }

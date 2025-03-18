@@ -16,6 +16,9 @@ export const WorkExperience = ({ data }: { data: ApiWorkExperience }) => {
               <p className="work-experience detail">
                 <strong>Period:</strong> {job.period}
               </p>
+              <p className="work-experience detail">
+                <strong>Location:</strong> {job.location}
+              </p>
               <p className="work-experience ">
                 <strong>Responsibilities:</strong>
               </p>

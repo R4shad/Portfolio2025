@@ -135,11 +135,14 @@ export const workExperience: ApiWorkExperience = {
       company: 'Universidad Mayor de San Simón',
       location: 'Cochabamba',
       period: '2023 - 2024',
+      summary:
+        'As a Teaching Assistant at My University in Data Structures, I had the opportunity to teach and guide large groups of students, helping them grasp complex concepts and improve their problem-solving skills. This role strengthened my public speaking, leadership, and mentoring abilities.',
       responsibilities: [
-        'Assisted the professor in preparing and delivering course materials for the course "Programming Elements and Data Structures".',
-        'Taught classes and helped students understand complex programming concepts and data structures.',
-        'Provided support during lab sessions, troubleshooting issues and guiding students through practical exercises.',
-        'Ensured proper operation of equipment during lab sessions and assisted students with computer-related issues.',
+        'Collaborated with the professor to develop and deliver engaging course materials for "Programming Elements and Data Structures".',
+        'Led lectures and discussions, simplifying complex programming concepts to enhance student comprehension.',
+        'Provided one-on-one mentorship and guidance, fostering a supportive learning environment for students.',
+        'Assisted in lab sessions, troubleshooting technical issues and ensuring the proper functioning of equipment.',
+        'Offered hands-on IT support, resolving software and hardware issues to maintain smooth lab operations.',
       ],
     },
     {
@@ -147,11 +150,14 @@ export const workExperience: ApiWorkExperience = {
       company: 'Truextend',
       location: 'Cochabamba',
       period: '2023',
+      summary:
+        'Worked As a Software Development Intern at Truextend, I actively contributed throughout the entire development lifecycle. I took on multiple roles to ensure the success of each project.',
       responsibilities: [
-        'Contributed to software development projects, including coding, testing, debugging, and design.',
-        'Participated in Scrum development meetings, managing tasks and contributing to decision-making processes.',
-        'Assisted in IT tasks such as installing programs, updating software, and performing hardware changes on computers.',
-        'Learned and applied security standards within a software development company.',
+        'Developed and maintained both frontend and backend components, ensuring a seamless user experience.',
+        'Conducted testing, debugging, and quality assurance to identify and resolve system issues, improving stability.',
+        'Actively contributed to Scrum meetings, providing insights and suggestions to enhance development strategies.',
+        'Installed and configured software, performed hardware updates, and ensured smooth IT operations.',
+        'Applied industry-standard security practices in software development, reinforcing system integrity and compliance.',
       ],
     },
     {
@@ -159,11 +165,16 @@ export const workExperience: ApiWorkExperience = {
       company: 'Asociación Municipal de Taekwondo Quillacollo',
       location: 'Quillacollo',
       period: '2024 - Present',
+      summary:
+        'As a freelance web developer, I designed and built a dynamic website for the Asociación Municipal de Taekwondo Quillacollo, working independently to analyze requirements, solve technical challenges, and ensure an optimal user experience.',
       responsibilities: [
-        'Developing a website for the Asociación Municipal de Taekwondo Quillacollo.',
-        'Designing and implementing an intuitive user interface to enhance usability.',
-        'Integrating necessary features for managing events, schedules, and memberships.',
-        'Ensuring responsiveness and performance optimization for various devices.',
+        'Led the end-to-end development of a website, from planning and design to deployment and maintenance.',
+        'Worked closely with stakeholders to gather requirements and translate them into functional web solutions.',
+        'Designed and implemented an intuitive user interface to enhance accessibility and usability.',
+        'Integrated features for event management, schedules, and memberships to streamline operations.',
+        'Ensured the website was fully responsive and optimized for performance across multiple devices.',
+        'Independently researched and applied best practices to overcome technical challenges and improve functionality.',
+        'Maintained clear and professional communication with the client to provide updates and gather feedback for continuous improvement.',
       ],
     },
   ],
