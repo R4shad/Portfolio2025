@@ -28,10 +28,10 @@
 .navbar-text {
   color: white;
 }
-h1 {
+.name {
   font-size: 16px;
 }
-h2 {
+.area {
   font-size: 14px;
   opacity: 0.8;
 }

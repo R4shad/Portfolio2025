@@ -4,18 +4,18 @@ import './../FormatedResponses.css'
 export const Projects = ({ data }: { data: ApiProjects }) => {
   return (
     <div className="response-formated-container">
-      <h2>Projects</h2>
+      <h3>Projects</h3>
       {data.data.map((category) => (
-        <div key={category.category} className="project-category">
+        <div key={category.category} className="project category">
           <h3>{category.category}</h3>
           <ul>
             {category.projects.map((project) => (
-              <li key={project.name} className="project-item">
-                <p className="project-name">
+              <li key={project.name} className="project item">
+                <p className="project name">
                   <strong>{project.name}</strong>
                 </p>
-                <p className="project-description">{project.description}</p>
-                <p className="project-tech">
+                <p className="project detail">{project.description}</p>
+                <p className="project detail">
                   <strong>Technologies:</strong>{' '}
                   {project.technologies.join(', ')}
                 </p>

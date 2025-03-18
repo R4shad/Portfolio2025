@@ -7,8 +7,8 @@ const Header = () => {
       <div className="navbar-left">
         <img className="img-perfil-navbar" src="/perfil.JPG" alt="Profile" />
         <div className="navbar-text">
-          <h1>Amir Barra - Systems Engineer</h1>
-          <h2>Web Developer and IT</h2>
+          <h1 className="name">Amir Barra - Systems Engineer</h1>
+          <h2 className="area">Web Developer and IT</h2>
         </div>
       </div>
 

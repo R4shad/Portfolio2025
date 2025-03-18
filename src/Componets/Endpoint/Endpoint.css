@@ -1,16 +1,14 @@
 .endpoint {
-  width: 90%;
+  width: 88%;
   margin: 10px;
   border: 1px solid #30363d;
   border-radius: 8px;
   background-color: #161b22;
+  padding: 16px;
 }
 .endpoint-title {
   font-size: 1.5rem;
   font-weight: bold;
-
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 .endpoint-description {
   padding-left: 16px;
@@ -19,15 +17,20 @@
   display: flex;
   align-items: center;
   border-bottom: 1px solid #30363d;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   cursor: pointer;
 }
 
 .endpoint-header {
   display: flex;
   align-items: center;
-  padding: 20px;
+  padding-top: 20px;
   cursor: pointer;
+}
+
+.collapse {
+  display: none;
 }
 
 .api-method {
@@ -55,11 +58,8 @@
   margin-right: 16px;
 }
 
-.expand {
-  margin: 16px;
-}
-
 .endpoint-url {
+  margin-top: 20px;
   padding: 5px;
   border: 1px solid #30363d;
   border-radius: 5px;

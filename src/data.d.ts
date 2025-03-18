@@ -48,7 +48,7 @@ export const certifications: ApiCertification = {
           date: '14-07-2022',
         },
         {
-          name: 'ROUTING INFORMATION IN NETWORKS',
+          name: 'Routing Information in Networks',
           institution: 'Umss-Fcyt',
           location: 'Cochabamba',
           date: '07-06-2022',

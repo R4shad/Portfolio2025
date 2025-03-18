@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=IBM+Plex+Sans:wght@300;400;700&display=swap');
 
-@font-face {
-  font-family: 'JetBrains Mono';
-  src: url('https://fonts.cdnfonts.com/s/17494/JetBrainsMono-Regular.woff2')
-    format('woff2');
-}
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
 body {
   background-color: #0d1117;
   margin: 0;

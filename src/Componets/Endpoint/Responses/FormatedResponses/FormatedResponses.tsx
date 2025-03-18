@@ -5,7 +5,7 @@ import {
   ApiSkills,
   ApiProjects,
 } from '../../../../types.d'
-import { UniversityInfo } from './ResponsesTypes/UniversityInfo'
+import { Studies } from './ResponsesTypes/Studies'
 import { Certifications } from './ResponsesTypes/Certifications'
 import { WorkExperience } from './ResponsesTypes/WorkExperience'
 import { Skills } from './ResponsesTypes/Skills'
@@ -36,7 +36,7 @@ export const FormatedResponse = ({
 
   // Verificar si es un registro universitario
   if (!Array.isArray(data.data) && 'university' in data.data) {
-    return <UniversityInfo data={data as ApiRecord} />
+    return <Studies data={data as ApiRecord} />
   }
 
   // Si es un array de certificaciones

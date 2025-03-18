@@ -1,9 +1,8 @@
-import { ApiRecord } from './../../../../../types.d'
+import { ApiRecord } from '../../../../../types'
 import './../FormatedResponses.css'
-
-export const UniversityInfo = ({ data }: { data: ApiRecord }) => {
+export const Studies = ({ data }: { data: ApiRecord }) => {
   return (
-    <div className="response-formated-container">
+    <div className="response-formated-container studies">
       <div className="university-info">
         <p>
           <strong>University:</strong> {data.data.university}

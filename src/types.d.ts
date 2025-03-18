@@ -93,3 +93,8 @@ export interface ContactFormData {
   subject: string
   message: string
 }
+
+export interface ContactResponse {
+  status: number
+  data: ContactFormData
+}
