@@ -27,6 +27,9 @@ export const PostEndpoint = () => {
     if (!data.email || !data.subject || !data.message) {
       return 'All fields are required.'
     }
+    if (!data.email.includes('@')) {
+      return 'Invalid email format.'
+    }
     return null
   }
 

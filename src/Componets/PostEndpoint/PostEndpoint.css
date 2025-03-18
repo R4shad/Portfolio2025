@@ -43,7 +43,8 @@
     width: 95%;
     font-size: 12px;
   }
-  .error-message .success-message {
+  .error-message,
+  .success-message {
     font-size: 12px;
     margin-top: 8px;
   }
