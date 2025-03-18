@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './../endpoint/Endpoint.css'
+import './../Endpoint/Endpoint.css'
 import './PostEndpoint.css'
 import { SlArrowDown } from 'react-icons/sl'
 
