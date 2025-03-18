@@ -20,3 +20,8 @@
 .instagram:hover {
   fill: #e4405f;
 }
+@media (max-width: 768px) {
+  .icon {
+    width: 16px;
+  }
+}

@@ -28,3 +28,15 @@
   gap: 18px;
   margin-top: 1rem;
 }
+@media (max-width: 768px) {
+  .h1 {
+    font-size: 24px;
+  }
+  .h2 {
+    font-size: 19px;
+  }
+  .img-perfil {
+    width: 150px;
+    height: 150px;
+  }
+}

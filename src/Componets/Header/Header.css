@@ -28,7 +28,7 @@
 .navbar-text {
   color: white;
 }
-.name {
+.my-name {
   font-size: 16px;
 }
 .area {
@@ -40,4 +40,12 @@
   display: flex;
   gap: 15px;
   width: 200px;
+}
+@media (max-width: 768px) {
+  .my-name {
+    font-size: 12px;
+  }
+  .area {
+    font-size: 10px;
+  }
 }

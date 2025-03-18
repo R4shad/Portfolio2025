@@ -75,3 +75,26 @@
 ul {
   padding: 0;
 }
+@media (max-width: 768px) {
+  .umss {
+    height: 150px;
+  }
+  .studies {
+    flex-direction: column;
+    align-items: center;
+  }
+  .item {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding: 4px 8px 4px 8px;
+    margin-left: 8px;
+  }
+  .name {
+    font-size: 14px;
+  }
+  ul {
+    margin: 6px 0 6px 0;
+  }
+}

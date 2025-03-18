@@ -76,7 +76,6 @@ export const PostEndpoint = () => {
       <div className={`endpoint-content ${expand ? 'expand' : 'collapse'}`}>
         <div className="endpoint-url">http://amirbarra.info/api/contact</div>
 
-        {error && <div className="error-message">{error}</div>}
         <div className="buttons">
           <button
             className={executed ? 'button disabled' : 'button'}
@@ -105,6 +104,7 @@ export const PostEndpoint = () => {
         <div className="response-container">
           <p>Input:</p>
           <hr />
+          {error && <div className="error-message">{error}</div>}
           <JsonPost jsonData={jsonData} setJsonData={setJsonData} />
         </div>
         {response && (
