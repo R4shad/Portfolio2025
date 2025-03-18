@@ -1,5 +1,5 @@
 import './Footer.css'
-import { FaEnvelope } from 'react-icons/fa' // Instala con: npm install react-icons
+import { FaEnvelope } from 'react-icons/fa'
 
 export const Footer = () => {
   return (

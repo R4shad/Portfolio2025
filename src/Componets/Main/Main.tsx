@@ -28,7 +28,7 @@ const Main = () => {
           <FaGithub className="icon github" />
         </a>
         <a
-          href="www.linkedin.com/in/amir-barra-it"
+          href="https://www.linkedin.com/in/amir-barra-it"
           target="_blank"
           rel="noopener noreferrer"
         >

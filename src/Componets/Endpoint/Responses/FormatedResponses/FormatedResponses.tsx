@@ -25,7 +25,6 @@ export const FormatedResponse = ({
     return <p className="error-message">No data available.</p>
   }
 
-  // Verificar si es experiencia laboral
   if (
     Array.isArray(data.data) &&
     data.data.length > 0 &&
@@ -34,12 +33,10 @@ export const FormatedResponse = ({
     return <WorkExperience data={data as ApiWorkExperience} />
   }
 
-  // Verificar si es un registro universitario
   if (!Array.isArray(data.data) && 'university' in data.data) {
     return <Studies data={data as ApiRecord} />
   }
 
-  // Si es un array de certificaciones
   if (
     Array.isArray(data.data) &&
     data.data.length > 0 &&
@@ -50,7 +47,6 @@ export const FormatedResponse = ({
     return <Certifications data={data as ApiCertification} />
   }
 
-  // Si es un array de habilidades (Skills)
   if (
     Array.isArray(data.data) &&
     data.data.length > 0 &&
@@ -61,7 +57,6 @@ export const FormatedResponse = ({
     return <Skills data={data as ApiSkills} />
   }
 
-  // Si es un array de proyectos (Projects)
   if (
     Array.isArray(data.data) &&
     data.data.length > 0 &&

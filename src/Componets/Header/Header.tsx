@@ -14,21 +14,21 @@ const Header = () => {
 
       <div className="navbar-icons">
         <a
-          href="https://github.com/tuusuario"
+          href="https://github.com/R4shad"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaGithub className="icon github" />
         </a>
         <a
-          href="https://www.linkedin.com/in/tuusuario"
+          href="https://www.linkedin.com/in/amir-barra-it"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FaLinkedin className="icon linkedin" />
         </a>
         <a
-          href="https://www.instagram.com/tuusuario"
+          href="https://www.instagram.com/r4shad_404/"
           target="_blank"
           rel="noopener noreferrer"
         >
