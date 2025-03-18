@@ -8,7 +8,7 @@ export const Readme = () => {
         animateOn="view"
         revealDirection="start"
         maxIterations={10}
-        speed={250}
+        speed={10}
         sequential={false}
         useOriginalCharsOnly
         text="Welcome to my portfolio! "
@@ -17,8 +17,8 @@ export const Readme = () => {
         parentClassName="phrase"
         animateOn="view"
         revealDirection="start"
-        maxIterations={1}
-        speed={1}
+        maxIterations={10}
+        speed={10}
         sequential
         useOriginalCharsOnly
         text="✨ There are no shortcuts to excellence. Success comes from effort and perseverance. ✨"
@@ -27,8 +27,8 @@ export const Readme = () => {
         parentClassName="phrase strong"
         animateOn="view"
         revealDirection="start"
-        maxIterations={1}
-        speed={1}
+        maxIterations={10}
+        speed={10}
         sequential
         useOriginalCharsOnly
         text="Web & API Development – Databases & Infrastructure - IT Security & Networking "
@@ -39,7 +39,7 @@ export const Readme = () => {
         revealDirection="start"
         maxIterations={1}
         speed={1}
-        sequential
+        sequential={false}
         useOriginalCharsOnly
         text="🎯 About Me"
       />
@@ -60,7 +60,7 @@ export const Readme = () => {
         revealDirection="start"
         maxIterations={1}
         speed={1}
-        sequential
+        sequential={false}
         useOriginalCharsOnly
         text="🚀 Work Philosophy"
       />
