@@ -255,22 +255,30 @@ export const projects: ApiProjects = {
       category: 'Web Development',
       projects: [
         {
-          name: 'Aplicación web para administrar campeonatos de taekwondo',
-          description: 'Proyecto de grado de la universidad',
-          technologies: [
-            'Sofea',
-            'ApiRest',
-            'Angular',
-            'Bootstrap',
-            'Sequelize',
-            'Express',
-            'MySQL',
-            'TypeScript',
-          ],
-          repository: 'https://github.com/amirbarra/taekwondo-admin',
-          demo: 'https://amirbarra.info/taekwondo-admin',
+          name: 'Taekwondo Championship Management - UI',
+          description:
+            'A web-based user interface for managing taekwondo championships, providing an intuitive and responsive experience for administrators and participants.',
+          technologies: ['Angular', 'TypeScript', 'Bootstrap', 'JWT'],
+          repository: 'https://github.com/R4shad/TkdHub_API',
+          demo: 'https://github.com/R4shad/TkdHub_API',
         },
       ],
+    },
+    {
+      name: 'Taekwondo Championship Management - API',
+      description:
+        'A robust RESTful API built to handle championship management operations, including user authentication, match scheduling, and results tracking.',
+      technologies: ['Express', 'TypeScript', 'MySQL', 'Sequelize', 'JWT'],
+      repository: 'https://github.com/R4shad/TkdHub_UI',
+      demo: 'https://github.com/R4shad/TkdHub_UI',
+    },
+    {
+      name: 'Quillacollo Taekwondo Association Website',
+      description:
+        'An informational website for the Quillacollo Taekwondo Association, providing details about the association, its members, affiliated clubs, and news updates.',
+      technologies: ['React', 'TypeScript', 'TailwindCSS'],
+      repository: 'https://github.com/R4shad/Project-Tkd',
+      demo: 'https://amirbarradev.netlify.app/',
     },
   ],
 }
