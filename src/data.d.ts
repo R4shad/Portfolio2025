@@ -259,8 +259,8 @@ export const projects: ApiProjects = {
           description:
             'A web-based user interface for managing taekwondo championships, providing an intuitive and responsive experience for administrators and participants.',
           technologies: ['Angular', 'TypeScript', 'Bootstrap', 'JWT'],
-          repository: 'https://github.com/R4shad/TkdHub_API',
-          demo: 'https://github.com/R4shad/TkdHub_API',
+          repository: 'https://github.com/R4shad/TkdHub_UI',
+          demo: 'https://github.com/R4shad/TkdHub_UI',
         },
       ],
     },
@@ -269,8 +269,8 @@ export const projects: ApiProjects = {
       description:
         'A robust RESTful API built to handle championship management operations, including user authentication, match scheduling, and results tracking.',
       technologies: ['Express', 'TypeScript', 'MySQL', 'Sequelize', 'JWT'],
-      repository: 'https://github.com/R4shad/TkdHub_UI',
-      demo: 'https://github.com/R4shad/TkdHub_UI',
+      repository: 'https://github.com/R4shad/TkdHub_API',
+      demo: 'https://github.com/R4shad/TkdHub_API',
     },
     {
       name: 'Quillacollo Taekwondo Association Website',
