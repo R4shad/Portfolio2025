@@ -60,9 +60,9 @@ export const FormatedResponse = ({
   if (
     Array.isArray(data.data) &&
     data.data.length > 0 &&
-    'category' in data.data[0] &&
-    'projects' in data.data[0] &&
-    'name' in data.data[0].projects[0]
+    'name' in data.data[0] &&
+    'description' in data.data[0] &&
+    'technologies' in data.data[0]
   ) {
     return <Projects data={data as ApiProjects} />
   }

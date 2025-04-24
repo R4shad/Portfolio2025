@@ -252,17 +252,20 @@ export const projects: ApiProjects = {
   status: 200,
   data: [
     {
-      category: 'Web Development',
-      projects: [
-        {
-          name: 'Taekwondo Championship Management - UI',
-          description:
-            'A web-based user interface for managing taekwondo championships, providing an intuitive and responsive experience for administrators and participants.',
-          technologies: ['Angular', 'TypeScript', 'Bootstrap', 'JWT'],
-          repository: 'https://github.com/R4shad/TkdHub_UI',
-          demo: 'https://github.com/R4shad/TkdHub_UI',
-        },
-      ],
+      name: 'Quillacollo Taekwondo Association Website',
+      description:
+        'An informational website for the Quillacollo Taekwondo Association, providing details about the association, its members, affiliated clubs, and news updates.',
+      technologies: ['React', 'TypeScript', 'TailwindCSS'],
+      repository: 'https://github.com/R4shad/Project-Tkd',
+      demo: 'https://tkdqllo.netlify.app/',
+    },
+    {
+      name: 'Taekwondo Championship Management - UI',
+      description:
+        'A web-based user interface for managing taekwondo championships, providing an intuitive and responsive experience for administrators and participants.',
+      technologies: ['Angular', 'TypeScript', 'Bootstrap', 'JWT'],
+      repository: 'https://github.com/R4shad/TkdHub_UI',
+      demo: 'https://github.com/R4shad/TkdHub_UI',
     },
     {
       name: 'Taekwondo Championship Management - API',
@@ -273,12 +276,12 @@ export const projects: ApiProjects = {
       demo: 'https://github.com/R4shad/TkdHub_API',
     },
     {
-      name: 'Quillacollo Taekwondo Association Website',
+      name: 'IceCream POS - Billing System for Ice Cream Shop',
       description:
-        'An informational website for the Quillacollo Taekwondo Association, providing details about the association, its members, affiliated clubs, and news updates.',
-      technologies: ['React', 'TypeScript', 'TailwindCSS'],
+        'A web application designed to manage billing operations for an ice cream shop. It allows product registration, sales tracking, and daily report generation. Includes roles for cashier.',
+      technologies: ['React', 'TypeScript'],
       repository: 'https://github.com/R4shad/Project-Tkd',
-      demo: 'https://amirbarradev.netlify.app/',
+      demo: 'https://tkdqllo.netlify.app/',
     },
   ],
 }

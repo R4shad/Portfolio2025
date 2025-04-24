@@ -68,27 +68,23 @@ export interface ApiSkills {
   status: number
   data: SkillCategory[]
 }
-export interface ApiProjects {
+export type Project = {
+  name: string
+  description: string
+  technologies: string[]
+  repository?: string
+  demo?: string
+}
+
+export type ApiProjects = {
   endpoint: string
   description: string
   getDescription: string
   url: string
   status: number
-  data: ProjectCategory[]
+  data: Project[]
 }
 
-export interface ProjectCategory {
-  category: string
-  projects: Project[]
-}
-
-export interface Project {
-  name: string
-  description: string
-  technologies: string[]
-  repository: string
-  demo: string
-}
 export interface ContactFormData {
   email: string
   subject: string
